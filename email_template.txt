@@ -1,0 +1,10 @@
+Dear Professor [insert professor name here],
+
+My name is Lakshya Jain and I am a high school student at Milton District High School in Ontario. Over the past year I have been working on a research project on decision making in imperfect information games, creating a hybrid approach combining multiple reasoning paradigms to deliver human-like results in complex card games. I am looking for feedback and general advice on how to proceed.
+
+The game I chose for the demo was the Indian Card Game '28'. I choose this because it's one of the most complex trick-taking card games. It features a bidding phase, team gameplay and a complex points system. The system I built combines a belief network, a reinforcement learning agent trained through self play, and a Monte Carlo Tree Search. The belief network drives early bidding decisions, while search is brought in during late trick play when precise calculations matter more.
+
+I know that this kind of thing is right up your alley, I would be grateful if you could look at my draft paper and share any thoughts. Even a short comment would help me refine the work and understand how to better frame it.
+
+Thank you!
+Lakshya Jain

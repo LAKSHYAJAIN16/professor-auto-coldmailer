@@ -1,0 +1,6 @@
+name,affiliation,research_areas,email,relevance,profile_url,source
+Dr. Rich Sutton,University of Alberta - Computing Science,"Reinforcement Learning, Temporal Difference Learning, AI",sutton@ualberta.ca,"Pioneer in reinforcement learning, author of the standard RL textbook",https://www.ualberta.ca/~sutton/,Fallback
+Dr. Michael Bowling,University of Alberta - Computing Science,"Reinforcement Learning, Game AI, Poker AI, Multi-Agent Systems",bowling@ualberta.ca,"Expert in game AI and poker AI, works on imperfect information games",https://www.ualberta.ca/~mbowling/,Fallback
+Dr. Vincent Conitzer,Duke University - Computer Science,"Game Theory, Multi-Agent Systems, Algorithmic Game Theory",conitzer@cs.duke.edu,Expert in game theory and multi-agent systems,https://users.cs.duke.edu/~conitzer/,Fallback
+Dr. Tuomas Sandholm,Carnegie Mellon University - Computer Science,"Game Theory, Mechanism Design, Multi-Agent Systems",sandholm@cs.cmu.edu,Expert in mechanism design and game theory,https://www.cs.cmu.edu/~sandholm/,Fallback
+Dr. Michael Wellman,University of Michigan - Computer Science,"Multi-Agent Systems, Game Theory, Market Design",wellman@umich.edu,Expert in multi-agent systems and decision making,https://web.eecs.umich.edu/~wellman/,Fallback
