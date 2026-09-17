@@ -41,6 +41,29 @@ python run_campaign.py "Research Collaboration - Decision Making Games" "Lakshya
 - `email_report_[timestamp].csv` - Email sending results
 - `coldmailer.log` - System logs
 
+## Core Modules
+
+- `simple_coldmailer.py` - `SimpleColdMailer` class that orchestrates a campaign end-to-end; used by `run_campaign.py`
+- `gpt_professor_finder.py` - Uses the OpenAI API to find professors relevant to a research area
+- `email_scraper.py` - Scrapes/validates professor contact info
+- `email_personalizer.py` - Uses AI to personalize the email body per recipient while preserving the template's style
+- `email_sender.py` - Sends the personalized emails over SMTP with the PDF attached
+
+## Tech Stack
+
+- Python 3.8+
+- OpenAI API (professor discovery and email personalization)
+- Selenium + BeautifulSoup + Requests (scraping)
+- pandas (CSV reports)
+- Gmail SMTP for sending
+
+## Ad-hoc Scripts
+
+A couple of one-off, hand-edited scripts also live in the repo root for specific outreach runs rather than the general pipeline:
+
+- `scrape.py` - Standalone scraper that walks a given lab/people page (e.g. a university lab site) collecting `mailto:` and in-page email addresses into a JSON file (`qed_contacts.json` by default). Edit `START_URL`/`OUTPUT_FILE` at the top before running.
+- `new_script.py` - A minimal, self-contained sender with a hardcoded list of professor name/email pairs; sends a plain SMTP email with a PDF attachment to each. Meant for quick, manually-curated batches outside the main `run_campaign.py` flow.
+
 ## Requirements
 
 - Gmail account with App Password
