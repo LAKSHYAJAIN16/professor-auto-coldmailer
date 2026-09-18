@@ -2,7 +2,7 @@
 
 > Finds professors, writes them personalized emails, and sends them with your CV attached.
 
-I built this because emailing professors one by one to ask about research opportunities is tedious. It finds relevant professors, personalizes an email template for each, and sends it out with your CV/research draft attached.
+Emailing professors one by one to ask about research opportunities is tedious. This automates the whole loop: find relevant professors, personalize an email template for each, and send it out with your CV/research draft attached.
 
 ## Setup
 ```bash
